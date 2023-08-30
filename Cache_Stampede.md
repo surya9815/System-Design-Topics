@@ -24,7 +24,7 @@ Cache stampede, also known as "dog-piling" or "cache thundering," is a phenomeno
 Consider an e-commerce website with product pages. Each product page has a cache that stores product information. If the cache expires, and a popular product's page has a cache stampede, multiple users requesting that product page could simultaneously trigger the regeneration of the cache, leading to high demand on the backend systems. By implementing strategies like cache locking or lazy loading, the website can reduce the impact of cache stampedes and maintain better performance.
 
 ## Conclusion
-In conclusion, cache stampede is a phenomenon that occurs when multiple requests simultaneously try to regenerate an expired cache, causing excessive load on backend resources. Employing strategies like cache locking, staggered expiry, and background regeneration can help mitigate the negative effects of cache stampede and ensure smoother system performance.
+In conclusion, cache stampede is a phenomenon that occurs when multiple requests simultaneously try to regenerate an expired cache, causing excessive load on backend resources. Employing strategies like cache locking, staggered expiry, and background regeneration can help mitigate the negative effects of cache stampede and ensure smoother system performance
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryansht/)
